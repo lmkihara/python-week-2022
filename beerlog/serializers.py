@@ -10,7 +10,7 @@ class BeerOut(BaseModel):
     flavor: int
     image: int
     cost: int
-    rate: int = 0
+    rate: int
     date: datetime
 
 
